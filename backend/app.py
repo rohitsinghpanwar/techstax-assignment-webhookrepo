@@ -7,6 +7,10 @@ app=Flask(__name__)
 CORS(app)
 port=os.getenv("PORT",5000)
 
+@app.route("/", methods=["GET"])
+def index():
+    return jsonify({"message": "✅ Server is up and running"}), 200
+
 @app.route("/webhook", methods=["POST"])
 def github_webhook():
     event_type = request.headers.get("X-GitHub-Event")

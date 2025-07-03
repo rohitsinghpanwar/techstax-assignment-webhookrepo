@@ -5,7 +5,7 @@ const App = () => {
   const [events, setEvents] = useState([]);
 
   const fetchEvents = async () => {
-    const res = await axios.get('http://localhost:5000/events');
+    const res = await axios.get('https://techstax-assignment-webhookrepo.onrender.com/events');
     setEvents(res.data.reverse()); // show newest first
   };
 
