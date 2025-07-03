@@ -1,0 +1,14 @@
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  font-style: oblique;
+}
+p{
+  font-style:oblique;
+  font-size: large;
+  border: 1px solid black;
+  padding: 3px;
+}

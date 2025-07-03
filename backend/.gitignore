@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# VS Code, PyCharm and other IDEs
+.vscode/
+.idea/
+*.swp
+
+# dotenv environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and debug
+*.log
+
+# Database files (if any local ones)
+*.db
+*.sqlite3
+
+# pytest, coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Flask session files or compiled templates
+instance/
+*.egg-info/
